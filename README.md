@@ -147,6 +147,33 @@ API endpoints can be tested with Postman or a browser for immediate verification
 
 ---
 
+## 🧩 Project Structure
+
+```
+FuelEU-Maritime/
+ ├── Backend/
+ │   ├── src/
+ │   │   ├── core/
+ │   │   ├── adapters/
+ │   │   └── infrastructure/
+ │   ├── prisma/
+ │   ├── package.json
+ │   └── .env
+ ├── Frontend/
+ │   ├── src/
+ │   │   ├── adapters/ui/
+ │   │   ├── adapters/infrastructure/
+ │   │   └── core/
+ │   ├── package.json
+ │   └── vite.config.ts
+ ├── README.md
+ ├── AGENT_WORKFLOW.md
+ └── REFLECTION.md
+```
+
+---
+
+
 ## 💡 Opportunities for Expansion
 
 * **Security:** Implement full Authentication/Authorization (e.g., admin vs. ship operator roles).
